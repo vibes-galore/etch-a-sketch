@@ -10,7 +10,7 @@ body {
 #container {
   display: flex;
   background-color: white;
-  border: 4px solid #333;
+  border: 4px solid #4a2929;
   height: 480px;
   width: 480px;
   flex-wrap: wrap;
@@ -21,4 +21,8 @@ body {
   width: calc(100% / 16);
   height: calc(100% / 16);
   box-sizing: border-box;
+}
+
+button {
+  align-self: flex-start;
 }
